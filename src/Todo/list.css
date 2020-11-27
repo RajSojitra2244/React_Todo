@@ -1,0 +1,42 @@
+.list{
+    color: rgb(12, 11, 11);
+    width: 400px;  
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+.backcolor{
+   color: black; 
+   border: 0px;
+}
+.list p{
+   padding: 10px;
+   position: relative;
+}
+.list p span{
+   position: absolute;
+   right: 10px;
+   cursor: pointer;
+}
+.faicons{
+   margin: 0 5px;
+   font-size: 15px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   width: 30%;
+   border-radius: 5px;
+ }
+ 
+ .card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ 
+.form{
+   padding-left: 10px;
+   margin-right: 15px;
+   border-color: white;
+   border-width: 0px;
+}
